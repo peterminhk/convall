@@ -1,1 +1,2 @@
 Some ISO-8859 texts.
+This can be diff.
