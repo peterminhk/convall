@@ -9,7 +9,7 @@ I found out git cannot show diff for UTF-16LE encoded text files, and if you con
 You can do this with iconv, but this script helps you convert all files at once.
 This script will convert UTF-16LE to UTF-8 and also strip [BOM](https://en.wikipedia.org/wiki/Byte_order_mark).
 
-## Getting started
+## Getting Started
 
 Usage:
 ```
@@ -26,7 +26,7 @@ You can create new files as output:
 convall.sh /path/for/project .out
 ```
 
-## Customize
+## How to Customize
 
 Maybe this diff problem also happened to some other encodings not only UTF-16LE.
 If you want to run convall for other encodings then edit these variables in the script.
